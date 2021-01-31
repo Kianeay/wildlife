@@ -1,0 +1,32 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.background {
+    background-image: url("assets/fox.png");
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    height: 770px;
+}
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+a {
+    color: #F7F7F7;;  
+}
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
