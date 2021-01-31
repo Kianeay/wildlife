@@ -30,3 +30,6 @@ a {
   display: -ms-flexbox;
   display: flex;
 }
+.header-menu {
+    justify-content: space-between;
+}
