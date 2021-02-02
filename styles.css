@@ -7,15 +7,15 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
-
+  font-family: "Open Sans", sans-serif;
+  background-color: #CCC;
 }
 .background {
-    background-image: url("assets/fox.png");
-    background-repeat: no-repeat;
-    color: white;
-    background-size: cover;
-    height: 770px;
+  background-image: url("assets/fox.png");
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+  height: 770px;
 }
 a,
 a:visited,
@@ -23,7 +23,7 @@ a:hover {
   text-decoration: none;
 }
 a {
-    color: #F7F7F7;;  
+  color: #f7f7f7;
 }
 .flex {
   display: -webkit-box;
@@ -31,5 +31,156 @@ a {
   display: flex;
 }
 .header-menu {
-    justify-content: space-between;
+  justify-content: space-between;
+  padding: 19px 120px;
+  align-content: center;
+  align-items: center;
 }
+.logo {
+  font-size: 32px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+.logo p {
+  padding-left: 15px;
+}
+.logo a {
+  display: flex;
+  align-items: center;
+}
+.loop {
+  align-items: center;
+display: flex;
+}
+.header-links {
+  gap: 61px;
+  font-size: 23px;
+  line-height: 60px;
+}
+.main-content {
+  flex-direction: column;
+  padding-left: 120px;
+}
+button {
+  width: 160px;
+  height: 60px;
+  background: #cd6326;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  color: #f7f7f7;
+  border: none;
+}
+.button {
+  border: 2px solid #CD6326;
+  width: 120px;
+  height: 50px;
+  display: flex;
+align-items: center;
+box-sizing: border-box;
+border-radius: 5px;
+}
+h1 {
+  font-size: 48px;
+line-height: 72px;
+letter-spacing: 2px;
+color: #CD6326;
+}
+.main-content-text {
+  width: 274px;
+  font-size: 18px;
+line-height: 27px;
+font-weight: normal;
+padding-bottom: 49px;
+}
+h2 {
+  font-size: 48px;
+line-height: 72px;
+color: #333333;
+text-align: center;
+padding-top: 120px;
+}
+.atricles-p {
+  font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #666666;
+}
+.atricles-page {
+  
+ }
+ .slider {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px;
+  align-items: center;
+ }
+ .arrow {
+  width: 30px;
+  height: 70px;
+ }
+ .left-card {
+  background-image: url("assets/deer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .center-card {
+  background-image: url("assets/squirel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .right-card {
+  background-image: url("assets/bird.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .card {
+  width: 300px;
+  height: 360px;
+  color: #F7F7F7;
+  
+ }
+ .card h4 {
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  padding-top: 205px;
+ }
+ .card p {
+  font-size: 17px;
+  line-height: 27px;
+  text-align: center;
+ }
+  h3 {
+    font-size: 27px;
+line-height: 40px;
+text-align: center;
+color: #333333;
+padding-top: 239px;
+
+  }
+  #GET-name {
+    width: 510px;
+height: 60px;
+font-size: 23px;
+line-height: 27px;
+background-color: #ccc;
+  }
+  .form {
+    justify-content: center;
+  }
+  .button-form {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+width: 120px;
+height: 64.8px;
+  }

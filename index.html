@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <title>Document</title>
   </head>
   <body>
@@ -19,11 +21,11 @@
             <p>wildlife</p>
           </div>
 
-          <div class="header-links link">
+          <div class="header-links link flex">
             <a href="#">Blog</a>
             <a href="#">Contacts</a>
-            <a href="/" class="loop">
-                <img src="images/logo.svg" alt="loop" />
+            <a href="#" class="loop">
+                <img src="assets/loop.png" alt="loop" />
               </a>
               <a href="#" class="button">Sign in</a>
           </div>
@@ -31,7 +33,7 @@
         </nav>
       </header>
       <main>
-        <div class="main-content">
+        <div class="main-content flex">
           <h1>Survival</h1>
           <p class="main-content-text">
             What this means is that we exist to help protect our environment and
@@ -43,33 +45,36 @@
     </div>
 
     <div class="atricles-page">
-      <h2>Latest articles</h2>
-      <p>Breaking news from the wild</p>
+      <h2>Latest Articles</h2>
+      <p class="atricles-p">Breaking news from the wild</p>
       <div class="slider">
-        <img class="left-arrow" src="" alt="" />
+        <img class="left-arrow arrow" src="assets/left-arrow.png" alt="" />
 
-        <div class="left-card">
+        <div class="left-card card">
           <h4>Deer</h4>
           <p>Naturalist investigation</p>
         </div>
 
-        <div class="center-card">
+        <div class="center-card card">
           <h4>Squirrel</h4>
           <p>Kamikaze squirrels</p>
         </div>
 
-        <div class="right-card">
+        <div class="right-card card">
           <h4>Bird</h4>
           <p>Birds Fight club</p>
         </div>
 
-        <img class="right-arrow" src="" alt="" />
+        <img class="right-arrow arrow" src="assets/right-arrow.png" alt="" />
       </div>
 
       <div class="email-form">
         <h3>Get notified about new amazing articles</h3>
-        <input id="GET-name" type="text" name="name" value="E-mail" />
-        <button class="button">Send</button>
+        <div class="form flex">
+          <input id="GET-name" type="text" name="name" value="E-mail" />
+          <button class="button-form button">Send</button>
+        </div>
+        
       </div>
     </div>
 
