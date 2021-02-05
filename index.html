@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -16,20 +22,21 @@
         <nav class="header-menu flex">
           <div class="logo flex">
             <a href="/" class="header-logo">
-              <img src="assets/logo.png" alt="wildlife" />
+              <img src="assets/logo.svg" alt="wildlife" />
             </a>
             <p>wildlife</p>
           </div>
 
-          <div class="header-links link flex">
-            <a href="#">Blog</a>
-            <a href="#">Contacts</a>
-            <a href="#" class="loop">
-                <img src="assets/loop.png" alt="loop" />
-              </a>
-              <a href="#" class="button">Sign in</a>
-          </div>
-        
+          <ul class="header-links link flex">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li>
+              <a href="#" class="loop"
+                ><img src="assets/loop.png" alt="loop"
+              /></a>
+            </li>
+            <li><a href="#" class="button-header">Sign in</a></li>
+          </ul>
         </nav>
       </header>
       <main>
@@ -45,7 +52,7 @@
     </div>
 
     <div class="atricles-page">
-      <h2>Latest Articles</h2>
+      <h2>Latest articles</h2>
       <p class="atricles-p">Breaking news from the wild</p>
       <div class="slider">
         <img class="left-arrow arrow" src="assets/left-arrow.png" alt="" />
@@ -70,32 +77,42 @@
 
       <div class="email-form">
         <h3>Get notified about new amazing articles</h3>
-        <div class="form flex">
-          <input id="GET-name" type="text" name="name" value="E-mail" />
-          <button class="button-form button">Send</button>
-        </div>
-        
+
+        <form
+          class="form flex"
+          action="     
+"
+        >
+          <input id="GET-name" type="text" name="name" placeholder="  Email" />
+          <input class="button-form" type="submit" value="Send" />
+        </form>
       </div>
     </div>
 
-    <div class="footer">
-      <div class="logo">
-        <a href="/" class="header-logo">
-          <img src="images/logo.svg" alt="wildlife" />
+    <div class="footer flex">
+      <div class="logo footer-logo flex">
+        <a href="#" class="header-logo">
+          <img src="assets/logo.svg" alt="wildlife" />
         </a>
         <p>wildlife</p>
       </div>
-      <div class="footer-links link">
-        <a href="#">Blog</a>
-        <a href="#">Contacts</a>
-      </div>
 
-      <div class="footer-icon">
-        <a href="#"><img src="" alt="facebook" /></a>
-        <a href="#"><img src="" alt="instagram" /></a>
-        <a href="#"><img src="" alt="pininterest" /></a>
-        <a href="#"><img src="" alt="telegram" /></a>
-      </div>
+      <ul class="footer-links link flex">
+        <a href="#">Articles</a>
+        <a href="#">About us</a>
+        <a href="#">Learn more</a>
+      </ul>
+
+      <ul class="footer-icon flex">
+        <li><a href="#"><img src="assets/facebook.svg" alt="facebook" /></a></li>
+        <li><a href="#"><img src="assets/instag.svg" alt="instagram" /></a></li>
+        <li><a href="#"><img src="assets/pin.svg" alt="pininterest" /></a></li>
+        <li><a href="#"><img src="assets/еудуп.svg" alt="telegram" /></a></li>
+        
+        
+        
+        
+      </ul>
     </div>
   </body>
 </html>
